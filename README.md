@@ -58,7 +58,7 @@ export ZENDESK_CLIENT_SECRET="..."
 ### 3. Install
 
 ```bash
-pi install @estebanforge/pi-zendesk-me
+pi install npm:@estebanforge/pi-zendesk-me
 ```
 
 No browser approval step, no user account to pick. The client-credentials token acts as the OAuth client itself, scoped to the read set above.
